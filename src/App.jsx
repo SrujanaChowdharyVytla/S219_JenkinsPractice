@@ -22,7 +22,7 @@ function App() {
   
   return (
     <>
-    <BrowserRouter basename="/ecomJenkinsPratice">
+    <BrowserRouter basename="/ecomJenkinsPractice">
       <Routes>
         <Route path="/" element={<HomePage />}>
           <Route index element={<AboutUs />} />
